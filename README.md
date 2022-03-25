@@ -16,7 +16,7 @@
 >>> import GFZ_TWS
 ``` 
 #### 下载数据
-可以选择从http://gravis.gfz-potsdam.de/home手动下载，将下载好的数据文件集中放在某一路径下，设为rootDir。然后用rootDir初始化Reader对象。
+可以选择从http://gravis.gfz-potsdam.de/home 手动下载，将下载好的数据文件集中放在某一路径下，设为rootDir。然后用rootDir初始化Reader对象。
 
 ```
 >>> tws=GFZ_TWS.Reader(r'./tws/')
